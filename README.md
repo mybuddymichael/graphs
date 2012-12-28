@@ -11,6 +11,8 @@ bundle install
 foreman start
 open site/public/index.html
 ```
+The `foreman start` activates the `stasis -d` watch feature and
+`guard-livereload`.
 
 If you're using [pow](http://pow.cx/):
 
@@ -21,4 +23,3 @@ ln -s <path/to/graphs>/site graphs
 
 And then visit [graphs.dev](http://graphs.dev/).
 
-Running `foreman start` runs stasis's watch feature and guard-livereload.
