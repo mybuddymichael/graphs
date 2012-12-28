@@ -19,6 +19,6 @@ cd ~/.pow
 ln -s <path/to/graphs>/site graphs
 ```
 
-And then visit [graphs.dev]().
+And then visit [graphs.dev](http://graphs.dev/).
 
 Running `foreman start` runs stasis's watch feature and guard-livereload.
