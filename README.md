@@ -12,7 +12,7 @@ foreman start
 open site/public/index.html
 ```
 
-If you're using pow:
+If you're using [pow](http://pow.cx/):
 
 ```shell
 cd ~/.pow
