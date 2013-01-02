@@ -6,3 +6,4 @@ gem 'guard'
 gem 'guard-livereload'
 
 gem 'guard-less'
+gem 'guard-coffeescript'
