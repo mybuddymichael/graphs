@@ -8,18 +8,19 @@ Just messing around with [d3.js](d3js.org)'s sweet graphs.
 git clone https://github.com/mybuddymichael/graphs.git
 cd graphs
 bundle install
-foreman start
-open site/public/index.html
+guard
+open index.html
 ```
-The `foreman start` activates the `stasis -d` watch feature and
-`guard-livereload`.
 
-If you're using [pow](http://pow.cx/):
+The Guardfile will compile LESS and CoffeeScript, along with triggering
+Livereload.
+
+If you're using [pow](http://pow.cx/), also do this:
 
 ```shell
 cd ~/.pow
-ln -s <path/to/graphs>/site graphs
+mkdir graphs
+ln -s <path/to/graphs> graphs/public
 ```
 
 And then visit [graphs.dev](http://graphs.dev/).
-
