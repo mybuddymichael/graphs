@@ -7,3 +7,5 @@ gem 'guard-livereload'
 
 gem 'guard-less'
 gem 'guard-coffeescript'
+
+gem 'json'

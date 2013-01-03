@@ -29,6 +29,7 @@ GEM
       em-websocket (>= 0.2.0)
       guard (>= 1.5.0)
       multi_json (~> 1.0)
+    json (1.5.4)
     less (2.1.0)
       commonjs (~> 0.2.0)
       therubyracer (~> 0.10.0)
@@ -56,5 +57,6 @@ DEPENDENCIES
   guard-coffeescript
   guard-less
   guard-livereload
+  json
   rb-fsevent
   terminal-notifier-guard
